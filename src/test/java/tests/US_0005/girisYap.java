@@ -15,12 +15,19 @@ MainPage mainPage=new MainPage();
     SoftAssert softAssert=new SoftAssert();
     Actions actions=new Actions(Driver.getDriver());
 
-//githuba gonderme denemesi yapiyorum
-//githuba gonderme denemesi yapiyorum
-//githuba gonderme denemesi yapiyorum
-//githuba gonderme denemesi yapiyorum
-//githuba gonderme denemesi yapiyorum
-//githuba gonderme denemesi yapiyorum
+//githuba gonderme denemesi yapiyorum2
+//githuba gonderme denemesi yapiyorum2
+//githuba gonderme denemesi yapiyorum2
+//githuba gonderme denemesi yapiyorum2
+//githuba gonderme denemesi yapiyorum2
+//githuba gonderme denemesi yapiyorum2
+//githuba gonderme denemesi yapiyorum2
+//githuba gonderme denemesi yapiyorum2
+//githuba gonderme denemesi yapiyorum2
+//githuba gonderme denemesi yapiyorum2
+//githuba gonderme denemesi yapiyorum2
+//githuba gonderme denemesi yapiyorum2
+//githuba gonderme denemesi yapiyorum2
 
     @Test
     public void loginButonuisDisplayed (){
