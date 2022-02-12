@@ -16,6 +16,12 @@ MainPage mainPage=new MainPage();
     Actions actions=new Actions(Driver.getDriver());
 
 //githuba gonderme denemesi yapiyorum
+//githuba gonderme denemesi yapiyorum
+//githuba gonderme denemesi yapiyorum
+//githuba gonderme denemesi yapiyorum
+//githuba gonderme denemesi yapiyorum
+//githuba gonderme denemesi yapiyorum
+
     @Test
     public void loginButonuisDisplayed (){
         Driver.getDriver().get(ConfigReader.getProperty("HMCUrl"));
