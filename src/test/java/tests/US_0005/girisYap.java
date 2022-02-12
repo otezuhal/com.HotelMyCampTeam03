@@ -15,7 +15,7 @@ MainPage mainPage=new MainPage();
     SoftAssert softAssert=new SoftAssert();
     Actions actions=new Actions(Driver.getDriver());
 
-
+//githuba gonderme denemesi yapiyorum
     @Test
     public void loginButonuisDisplayed (){
         Driver.getDriver().get(ConfigReader.getProperty("HMCUrl"));
