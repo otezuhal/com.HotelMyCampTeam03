@@ -6,15 +6,11 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
-
     public static Properties properties;
-
-    static {
-
-        String path="src/configuration.properties";
+    static{
 
         try {
-
+            String path="src/configuration.properties";
             FileInputStream fis=new FileInputStream(path);
             properties=new Properties();
             properties.load(fis);
@@ -24,14 +20,9 @@ public class ConfigReader {
             e.printStackTrace();
         }
 
-
     }
-
-
     public static String getProperty(String key){
 
         return properties.getProperty(key);
     }
-
-
 }

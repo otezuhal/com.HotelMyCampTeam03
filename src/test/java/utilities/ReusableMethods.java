@@ -1,5 +1,6 @@
 package utilities;
 
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -16,6 +17,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.function.Function;
+
 public class ReusableMethods {
     public static String getScreenshot(String name) throws IOException {
         // naming the screenshot with the current date to avoid duplication
